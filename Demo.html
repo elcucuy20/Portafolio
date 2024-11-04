@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera página</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #c0df0f;
+      }
+
+      h1 {
+        color: #002851;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="miTitulo">Adolfo Paredes Valadez</h1>
+    <p>
+      Empezamos a programar
+    </p>
+    <script>
+      document
+        .getElementById("miTitulo")
+        .addEventListener("click", function () {
+          this.style.color = "white";
+        });
+    </script>
+  </body>
+</html>
