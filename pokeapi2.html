@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeAPI</title>
+    
+    <script src="js/pokeapi2.js" defer></script>
+ 
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.blue.min.css">
+    <link rel="stylesheet" href="css/diseñoapi.css">
+
+    <a href="index.html">🏠</a>
+    <a href="pokeapi.html">⬅️</a>
+    <a href="Rick_morty.html">➡️</a>
+
+    <style>
+        body{
+            font-weight: bolder ;
+        }
+    </style>
+     <header>    
+        <h1>PokeAPI</h1>
+     <nav id="nav"> 
+       
+   </header>
+</head>
+<body>
+    <main class="container">
+        
+        <form id="search-form">
+            <label for="pokemon-name-input">Busca un Pokémon:</label>
+            <input type="text" id="pokemon-name-input"  required>
+            <button type="submit">Buscar</button>
+        </form>
+        <article>
+            <dl>
+                <dt>Nombre</dt>
+                <dd id="pokemon-name"></dd>
+                <dt>Tipos</dt>
+                <dd id="pokemon-types"></dd>
+                <dd id="pokemon-additional-info"></dd>
+                <dt>Imagen</dt>
+                <dd>
+                    <img id="pokemon-image" src="" alt="Imagen del Pokémon">
+                </dd>
+            </dl>
+            <h2>Sound :</h2>
+            <div class="audio-container">
+                <audio
+                    controls
+                    src="https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/25.ogg"
+                    id="audio-pokemon"
+                ></audio>
+            </div>
+        </article>
+    </main>
+</body>
+</html>

@@ -1,0 +1,124 @@
+/*
+*{
+    color: blueviolet;
+}
+    */
+    .tiny5-regular {
+        font-family: "Tiny5", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+h1{
+    color: orangered;
+}
+.Verde{
+    background-color: rgb(143, 252, 143);
+    color: black;
+}
+h6.Verde{
+    background-color: rgb(119, 250, 101);
+}
+#sections {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(278, 81%, 71%);
+}
+[type="text"]{
+    border: 2px solid #9ffaeb ;
+}
+input[type]{
+    background-color: rgb(253, 193, 253);
+}
+input[type="text"]:focus{
+    background-color: #321542;
+}
+p::first-line{
+    font-family: monospace;
+}
+div[class~="azul"]{
+    color: blue;
+}
+html_Ñ[lang|="es"]{
+    font-family: "Arial", sans-serif;
+}
+
+a[href^="https//"]{
+    color: orange;
+}
+
+img[src$="png"]{
+    border: 1px solid red;
+}
+
+div[title*="ejemplo"]{
+    color: green;
+}
+
+a:hover{
+    color: red;
+    
+}
+
+button:active{
+    background-color: skyblue;
+}
+
+input:focus{
+    background-color: orange;
+}
+
+input:checked{
+    background-color: rgb(43, 255, 0);
+}
+
+input:disabled{
+    background-color: gray;
+    color: white;
+}
+
+#parrafos p:first-child{
+    background-color: pink;
+}
+
+#parrafos p:nth-child(3){
+    font-weight: bold;
+}
+
+#parrafos p:last-child{
+    background-color: red;
+}
+
+#parrafos p:nth-child(even){
+    text-decoration: underline;
+}
+
+    #parrafos p:nth-child(even)
+    #parrafos h2:nth-of-type(even){
+    text-decoration: underline;
+}
+
+#parrafos p:nth-child(even) p::first-letter{
+    font-size: 24px;
+}
+
+blockquote::before{
+    content: "Cita:";
+    font-weight: bold;
+}
+
+blockquote::after{
+    content: "👌";
+    border: 1px solid green;
+}
+
+ul li::marker{
+    content: "🍔";
+}
+
+ul li ul li::marker{
+    content: "🍟";
+}
+
+ul li ul li ul li::marker{
+    content: "🥤";
+}
+

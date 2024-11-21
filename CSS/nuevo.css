@@ -1,0 +1,9 @@
+.hidden {
+    display: none;
+  }
+
+  body{
+
+            background-color: rgb(2, 6, 5);
+            color: red;
+        } 
